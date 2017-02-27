@@ -12,9 +12,13 @@ int main()
 	Student bob = Student("bob");
 	Student jane = Student("jane");
 
-	cis17.EnrollStudent(bob, 0);
-	cis17.EnrollStudent(jane, 1);
+	//cis17.EnrollStudent(bob, 0);
+	//cis17.EnrollStudent(jane, 1);
 
+	for (int i = 0; i < 3; i++)
+	{
+		auto student = Student("Test");
+	}
 	cout << cis17.GetClassInfo() << endl;
 
 	getchar();
